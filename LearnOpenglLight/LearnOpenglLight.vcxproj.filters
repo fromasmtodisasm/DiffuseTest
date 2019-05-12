@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\BlackBox">
+      <UniqueIdentifier>{bbb0db5d-4f55-430e-9284-565a2a47d58b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\BlackBox">
+      <UniqueIdentifier>{93a5f3cd-1f82-4096-b8fd-b25ffe077cee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LearnOpenglLight.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fromasmtodisasm\BlackBox\src\Geometry.cpp">
+      <Filter>Исходные файлы\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fromasmtodisasm\BlackBox\src\GladLoader.cpp">
+      <Filter>Исходные файлы\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fromasmtodisasm\BlackBox\src\ObjLoader.cpp">
+      <Filter>Исходные файлы\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fromasmtodisasm\BlackBox\include\BlackBox\common.h">
+      <Filter>Файлы заголовков\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fromasmtodisasm\BlackBox\include\BlackBox\ObjLoader.hpp">
+      <Filter>Файлы заголовков\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fromasmtodisasm\BlackBox\include\BlackBox\Opengl.hpp">
+      <Filter>Файлы заголовков\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fromasmtodisasm\BlackBox\include\BlackBox\Renderer.hpp">
+      <Filter>Файлы заголовков\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
