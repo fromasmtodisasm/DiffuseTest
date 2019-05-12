@@ -152,17 +152,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\fromasmtodisasm\BlackBox\src\Geometry.cpp" />
-    <ClCompile Include="..\..\fromasmtodisasm\BlackBox\src\GladLoader.cpp" />
-    <ClCompile Include="..\..\fromasmtodisasm\BlackBox\src\ObjLoader.cpp" />
     <ClCompile Include="CObject.cpp" />
     <ClCompile Include="LearnOpenglLight.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\fromasmtodisasm\BlackBox\include\BlackBox\common.h" />
-    <ClInclude Include="..\..\fromasmtodisasm\BlackBox\include\BlackBox\ObjLoader.hpp" />
-    <ClInclude Include="..\..\fromasmtodisasm\BlackBox\include\BlackBox\Opengl.hpp" />
-    <ClInclude Include="..\..\fromasmtodisasm\BlackBox\include\BlackBox\Renderer.hpp" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="CObject.h" />
     <ClInclude Include="Shader.h" />

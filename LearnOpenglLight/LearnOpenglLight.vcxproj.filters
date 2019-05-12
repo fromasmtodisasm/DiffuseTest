@@ -24,15 +24,6 @@
     <ClCompile Include="LearnOpenglLight.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\fromasmtodisasm\BlackBox\src\Geometry.cpp">
-      <Filter>Исходные файлы\BlackBox</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\fromasmtodisasm\BlackBox\src\GladLoader.cpp">
-      <Filter>Исходные файлы\BlackBox</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\fromasmtodisasm\BlackBox\src\ObjLoader.cpp">
-      <Filter>Исходные файлы\BlackBox</Filter>
-    </ClCompile>
     <ClCompile Include="CObject.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -43,18 +34,6 @@
     </ClInclude>
     <ClInclude Include="Shader.h">
       <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\fromasmtodisasm\BlackBox\include\BlackBox\common.h">
-      <Filter>Файлы заголовков\BlackBox</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\fromasmtodisasm\BlackBox\include\BlackBox\ObjLoader.hpp">
-      <Filter>Файлы заголовков\BlackBox</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\fromasmtodisasm\BlackBox\include\BlackBox\Opengl.hpp">
-      <Filter>Файлы заголовков\BlackBox</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\fromasmtodisasm\BlackBox\include\BlackBox\Renderer.hpp">
-      <Filter>Файлы заголовков\BlackBox</Filter>
     </ClInclude>
     <ClInclude Include="CObject.h">
       <Filter>Файлы заголовков</Filter>
